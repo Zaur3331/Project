@@ -14,7 +14,7 @@ int randNum = rand() % X + 1;
 
 if(randNum == Rival_Option)
 {
-    cout<<"It is tie! Try your luck next time :)";
+    cout<<"TIE! Try your luck next time :)";
 }
 else if (randNum == 1 && Rival_Option == 3 || randNum == 2 && Rival_Option == 1 || randNum == 3 && Rival_Option == 2)
 {
